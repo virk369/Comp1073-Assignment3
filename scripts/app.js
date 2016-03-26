@@ -7,18 +7,18 @@
     var request = new XMLHttpRequest();
     request.open('GET', my_data, true);
     request.addEventListener('readystatechange', function () {
-        // 
+        //
         if (request.readyState === 4 && request.status === 200) {
             var para = {};
 
-            // 
+            //
             para = JSON.parse(request.responseText);
 
 
-            // 
+            //
             var paraArray = [];
 
-            // 
+            //
             paraArray = para.paragraphs;
 
             //
