@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" 3 name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS section -->
+	<!--
+	Bootstrap v3.3.6 (http://getbootstrap.com)
+	Copyright 2011-2015 Twitter, Inc.
+	Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+	normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
+	-->
+	<link rel="stylesheet" href="content/css/bootstrap.min.css">
+	<link rel="stylesheet" href="content/css/bootstrap-theme.min.css">
+	<!--
+	Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+	License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ 	-->
+	<link rel="stylesheet" href="Content/css/font-awesome.min.css">
+	<link rel="stylesheet" href="content/app.css">
+	<title>Tarundeep Mini Portfolio</title>
+</head>
+<!--body-->
+
+<body id="contact">
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href=index.html><img src="photos/logo.png" alt="Logo" height="50px" /></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">About Me</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li class="active"><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<!--main-->
+	<main class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h1 id="ch1">Contact Me</h1>
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="usr">Name:</label>
+								<div class="col-sm-6">
+									<input type="text" class="form-control" id="name" placeholder="Name">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="email">Email:</label>
+								<div class="col-sm-6">
+									<input type="email" class="form-control" id="email" placeholder="Email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="comment">Comment:</label>
+								<div class="col-sm-6">
+									<textarea class="form-control" rows="4" id="comment" placeholder="Write Here"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-1">
+									<button type="button" id="button" class="btn outline">Submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--footer-->
+	<footer class="panel-footer">
+		<div class="container-fluid">
+			<div class="pull-left">
+				<p id="footer"></p>
+			</div>
+			<div class="pull-right">
+				<p id="social">
+					<a id="fb" href="http://fb.com/virk369">
+						<i class="fa fa-facebook fa-lg "></i>
+					</a>
+					<a href="http://googleplus.com/virk369">
+						<i class="fa fa-google-plus fa-lg"></i>
+					</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- Javascript Section -->
+	<!-- jQuery v2.2.0 | (c) jQuery Foundation | jquery.org/license */-->
+	<script src="scripts/lib/jquery-2.2.0.min.js"></script>
+	<script src="scripts/lib/bootstrap.min.js"></script>
+	<script src="scripts/app.js"></script>
+</body>
+
+</html>

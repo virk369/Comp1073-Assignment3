@@ -1,0 +1,96 @@
+/* custom style sheet */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #F5F5F5;
+	color: black;
+}
+
+/* nav bar brand */
+a.navbar-brand {
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+}
+/*portrait image index*/
+main img#portrait {
+	float: right;
+	box-shadow: 4px 4px 3px #7DB8BC;
+	margin-top: 2em;
+}
+
+
+/*main paras index*/
+main p#fpara {
+	font-size: 16px;
+}
+main p#secpara {
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+h1 {
+	font-size: 42px;
+}
+/*navigation*/
+
+nav.navbar,navbar-default {
+	border-bottom: solid 2px #c6cece;
+}
+nav div.container-fluid {
+	background-color: #484b4b;
+}
+
+nav div ul.nav.navbar-nav li a {
+	color: white;
+}
+
+nav div ul.nav.navbar-nav li a:hover {
+	color: #00DFFC;
+}
+
+
+/*common footer*/
+footer.panel-footer {
+	background-color: #484b4b;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: solid 2px #c6cece;
+}
+
+footer div p#footer {
+	color: white;
+}
+
+
+/*social icons in footer*/
+footer p#social i {
+	color: white;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+footer p#social i:hover {
+	color: #00DFFC;
+}
+
+/*button*/
+.btn.outline {
+	border: 3px solid rgba(52, 56, 56, 1);
+	background: none;
+	padding: 10px 10px;
+}
+
+button.btn.outline a {
+	color: rgba(52, 56, 56, 1);
+	text-decoration: none;
+}
+button.btn.outline a:hover {
+	color: #00DFFC;
+}
+.btn.outline:hover {
+	border-color: #00DFFC;
+}
