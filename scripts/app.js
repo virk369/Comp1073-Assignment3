@@ -3,7 +3,7 @@
 
     "use strict";
     // Instantiate new xhr object
-    var my_data = "app.json";
+    var my_data = "scripts/app.json";
     var request = new XMLHttpRequest();
     request.open('GET', my_data, true);
     request.addEventListener('readystatechange', function () {
